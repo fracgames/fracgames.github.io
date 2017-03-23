@@ -1,150 +1,290 @@
-<!DOCTYPE html>
-<html lang="zh">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/abnsunstyle.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap-social.css">
-    <link rel="stylesheet" href="css/picStyle.css">
-    <link rel="shotcut icon" href="images/dogAbner.ico">
-    <script src="js/isIE.js"></script>
-    <script src="js/change.js"></script>
-
-    <title>FracGames</title>
-
-</head>
-
-<body onresize="change()">
-    <nav class="navbar shadow navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                    aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand logo" href="https://dogabner.github.io/">
-                    <img src="images/Asset 4.svg" alt="logo">
-                </a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="#">
-                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home
-                        </a>
-                    </li>
-                    <li><a href="works/drawings.html"><span class="glyphicon glyphicon-pencil " aria-hidden="true"></span> 画作</a></li>
-                    <li><a href="works/photograph.html"><span class="glyphicon glyphicon-camera " aria-hidden="true"></span> 摄影</a></li>
-                    <li><a href="works/design.html"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span> 设计</a></li>
-                    <li><a href="works/videos.html"><span class="glyphicon glyphicon-facetime-video " aria-hidden="true"></span> 视频</a></li>
-                    <li><a href="works/articles"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> 文字</a></li>
-                    <li><a href="aboutme.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> 关于我</a></li>
-                    <!--<li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                        </ul>
-                    </li>-->
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i class="fa fa-phone-square" ></i> 联系我</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!--<nav>
-        <ol class="breadcrumb">
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Link</a>
-            </li>
-            <li class="active">Current</li>
-        </ol>
-    </nav>-->
-    <header class="jumbotron">
-        <div class="container">
-            <div class="col-xs-12 col-sm-4 mycol mycontent-left">
-                <div>
-                    <a href="#">
-                        <img src="images/dogAbner.svg" class="shadow imgresp center-block" alt="logo" id="logo">
-                    </a>
-                    <div>
-                        <p class="pull-right" style="padding-top:10px; margin:0;">dogAbner</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-8">
-                <h1 class="nowrap myTitle">艾博纳的小窝</h1>
-
-                <p id="title2" class="bottom-align-text nowrap my2Title" style=" margin-bottom:0;">艾博纳是条狗，
-                    <wbr>我可以告诉你哦，
-                    <wbr>但你不许说出去</p>
-                <p class="nowrap my2Title" style="font-size:14px; margin-bottom: 0; padding-top: 0; color:rgba(255,255,255,0.3)">看！！这里有个<a href="aSimpleGame/index.html" style="color:rgba(255,255,255,0.7)"><b>小游戏</b></a>，我只给你一个人玩哦</p>
-            </div>
-        </div>
-    </header>
-
-    <footer>
-        <div>
-            <div class="row row-footer">
-                <div class="col-xs-5 col-sm-offset-1 col-sm-2">
-                    <h5>联系我</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="abnsun@outlook.com">Email: abnsun@outlook.com</a></li>
-                        <li><a href="https://500px.com/dogabner/">500px上的摄影作品</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <!--<div class="col-xs-7 col-sm-offset-1 col-sm-4">
-                    <h5>Our Address</h5>
-                    <address id="addressid">
-                        121, Clear Water Bay Road<br> Clear Water Bay, Kowloon<br> HONG KONG<br>
-                        <i class="fa fa-phone" style="color: #7986CB"></i> : +852 1234 5678<br>
-                        <span class="fa fa-fax" style="color: #7986CB"></span> : +852 8765 4321<br>
-                        <i class="fa fa-envelope" style="color: #7986CB"></i> : <a href="mailto:confusion@food.net">confusion@food.net</a><br>
-                    </address>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="nav navbar-nav navbar-inverse" style="padding: 30px 50px;">
-                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus fa-inverse"></i></a>
-                        <a class="btn btn-social-icon " href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-inverse"></i></a>
-                        <a class="btn btn-social-icon " href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-inverse"></i></a>
-                        <a class="btn btn-social-icon " href="http://twitter.com/"><i class="fa fa-twitter fa-inverse"></i></a>
-                        <a class="btn btn-btn-social-icon" href="wechat.com"><i class="fa fa-wechat fa-inverse"></i></a>
-                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-inverse"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-inverse"></i></a>
-
-                    </div>
-                </div>-->
-
-                <div class="col-xs-12">
-                    <p style="padding:10px;"></p>
-                    <p align="center">© Copyleft 2016 dogAbner</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script>
-        change();
-    </script>
-    <script src="https://dogabner.github.io/js/jquery.min.js"></script>
-    <script src="https://dogabner.github.io/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-
-</body>
-
-</html>
+<h1 id="-the-spirit-of-gravity-"><em>The Spirit of Gravity 重力之灵</em></h1>
+<h2 id="-">一</h2>
+<blockquote>
+<p>未来的大地再也无法容纳巨大数量人类的居住。
+房子虽然越造越高，但频繁的地震能一下子把这些全都毁掉。
+虽然人类社会发展了几千年，人们依然日夜为房子操劳。住所依然是大多数人最大的经济负担。</p>
+</blockquote>
+<p><strong>树木的巨大化研究</strong></p>
+<p>天才的科学家，通过直接修改植物基因，成功创造出了巨树种子。
+将这种子埋入土中，不出数月就能长成几百米高的巨树，直径可达几十米长。
+树枝结构稳定，分叉少。似乎在上面直接搭个房子再合适不过了，还能用枝干做房梁。
+甚至直接挖开粗树枝，几天时间就能做出个不小的住处。
+把坚固的藤蔓做成楼梯，把向外延伸的枝干做成桥梁，把厚实的叶子当作床铺。</p>
+<p>为了成长到那种高度，巨树的根一直向下扎至几百米，巨树之间根枝交错缠绕。
+再大的地震也无法撼动它们。
+倒是暴风雨会对人们的生活造成些许影响。也是躲在房子里就不会有事的程度。</p>
+<p><strong>植被的消失</strong></p>
+<p>巨树疯狂的生长，极强的环境适应能力，
+很快便覆盖了地球的大多数土地。
+人们完美地解决了住房问题，甚至小孩也有能力轻松造出自己的住所。
+有时，一棵巨树只住上几个人，居住面积之大是以前无法想象的。
+而探索极限的科学家们，正在研究如何让巨树适应缺水的沙漠环境。
+毕竟它们可以利用几百米长的树根，覆盖大片地下土壤，吸收两百米下氮磷钾。</p>
+<p>随着巨树遮蔽天空，没过多久，原本的地被，灌木完全得不到光照，相继消失。
+它们成了巨树天然的肥料。
+再到后来，乔木之类的也没了踪迹。
+食草动物望着巨树高耸的身躯，慢慢饿死。
+少数能力强的物种，学会了爬树技能，据说是猿类教授它们的。
+而对于人们来说，这些生活在森林中的动物，只是一些打扰休息，窃取食物，破坏秩序的噪声。</p>
+<p><strong>巨树的意识</strong></p>
+<p>“这些巨树活上千年问题不大。”科学家们在媒体上做出保证。
+对此人们也是深信不疑。当他们把种子埋入土中便已有所觉悟，这种子的力量，足以完全改变原本的环境。
+几个月后，巨树便进入了长久的休眠期，它们也随四季更替，只是几乎不再生长。进入了一种自给自足的状态。
+它们同样也不生产种子。似乎听说有人见过巨树生长出的种子，不过也只是传闻。而具体原因，算是未解之谜。也许巨树是有意识这样。
+种子对于它们来说，也是一种灾难，当种子落入土地之后，它将与母亲争夺养分，为了自身的存货，年轻的树苗必须快速生长，争夺阳光。
+这种竞争也是相当残酷，对于母体来说也是如此。
+一小片土地无法容纳两棵巨树。</p>
+<p>繁衍后代对于它们也没什么必要，它们已然占领了陆地，又能活上千年，不必担心种族灭绝的问题。
+也许在一棵巨树大限将至时，它会产出自己最后的种子吧。人们是这样猜测。
+不过，那都是千年后的事情了。</p>
+<h2 id="-">二</h2>
+<h3 id="-">重力的意志</h3>
+<p>安蒂(<del>安迪</del> Andi)在房中摆弄着邻居送她的头饰。虽然这个时代已经没有住房问题了，安蒂她们依然居住的略显拥挤。</p>
+<blockquote>
+<p>邻居小孩的对话</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">childA</th>
+<th style="text-align:left">childB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">你还记得老人们谈起以前的生活吗</td>
+</tr>
+<tr>
+<td style="text-align:center">你是指人们以前住在地面上的事情？</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">对对，不觉的很可笑吗</td>
+</tr>
+<tr>
+<td style="text-align:center">我觉得那是爷爷在逗我们呢</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">对对，住在地上，那里不是漆黑一片嘛</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Andi和邻居的对话</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Andi</th>
+<th style="text-align:left">neighbor1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">我的梦想是住到更高层的地方去。</td>
+</tr>
+<tr>
+<td style="text-align:center">...</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">这里根本晒不到太阳，衣服要三天才能晒干。</td>
+</tr>
+<tr>
+<td style="text-align:center">...</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Andi和邻居的对话</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Andi</th>
+<th style="text-align:left">neighbor2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">（向上望）总有一天我会找到去往上一层的方法。</td>
+</tr>
+<tr>
+<td style="text-align:center">...</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">根你这样说吧，上面绝对是另一个世界。</td>
+</tr>
+<tr>
+<td style="text-align:center">...</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Andi和警告者的对话</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Andi</th>
+<th style="text-align:left">warner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">小心！别掉下去。</td>
+</tr>
+<tr>
+<td style="text-align:center">...</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">一旦走出这里，便再也回不来了。</td>
+</tr>
+<tr>
+<td style="text-align:center">...</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Andi和注视者的对话</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Andi</th>
+<th style="text-align:left">watcher</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">你觉得现在的生活怎么样？</td>
+</tr>
+<tr>
+<td style="text-align:center">...</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">想不想到外面去看看？</td>
+</tr>
+<tr>
+<td style="text-align:center">外面是什么？</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">给你这个（哈扎克之环），你会用上的。</td>
+</tr>
+<tr>
+<td style="text-align:center">也许吧</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">你知道每当我在这个高度向下看的时候，有种力量驱使我往下跳</td>
+</tr>
+<tr>
+<td style="text-align:center">你会回不来的</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">...</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>学生和教育者的对话</p>
+<p>(<del>孩子们在上课</del>)</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">students</th>
+<th style="text-align:left">teacher</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">你们知道学校存在的意义吗</td>
+</tr>
+<tr>
+<td style="text-align:center">把人变成机器</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">没错</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Andi和商人的对话</p>
+<p>(跳蚤市场)</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Andi</th>
+<th style="text-align:left">businessman</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">这里是二手市场，看看有没有你需要的东西</td>
+</tr>
+<tr>
+<td style="text-align:center">...</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Andi和狱警的对话</p>
+<p>(监狱门口)</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Andi</th>
+<th style="text-align:left">guard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">你知道吗，我觉得这个时代最荒谬的事情</td>
+</tr>
+<tr>
+<td style="text-align:center">...</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:left">莫过于还有这种地方的存在</td>
+</tr>
+<tr>
+<td style="text-align:center">...</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>

@@ -9,8 +9,8 @@ body {
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
   color: #333;
-  font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
-  font-size: 16px;
+  font-family:"arial", "宋体", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+  font-size: 8px;
   line-height: 1.5;
   word-wrap: break-word;
 }

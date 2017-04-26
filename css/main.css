@@ -958,7 +958,9 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: #fff;
+  background-image: url("/images/header.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .header-inner {
   position: relative;
@@ -1691,7 +1693,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffdfff;
+  background: #da14ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2537,4 +2539,7 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+body {
+  background: rgba(255,255,255,0.5);
 }
